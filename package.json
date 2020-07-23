@@ -1,7 +1,7 @@
 {
   "name": "@vtex/cli-plugin-template",
   "description": "vtex plugin template",
-  "version": "0.0.1-2",
+  "version": "0.0.1-3",
   "bugs": "https://github.com/vtex/cli-plugin-template/issues",
   "dependencies": {
     "@oclif/command": "^1",
