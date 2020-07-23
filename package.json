@@ -64,6 +64,6 @@
     "test": "jest --passWithNoTests",
     "version": "oclif-dev readme && git add README.md",
     "watch": "yarn build-clean && yarn nodemon",
-    "prereleasy": "yarn prepack"
+    "prereleasy": "yarn prepack && git add README.md && git commit -m README"
   }
 }
