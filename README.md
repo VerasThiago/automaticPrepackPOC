@@ -17,7 +17,7 @@ $ npm install -g @vtex/cli-plugin-template
 $ oclif-example COMMAND
 running command...
 $ oclif-example (-v|--version|version)
-@vtex/cli-plugin-template/0.0.1-1 linux-x64 node-v12.18.1
+@vtex/cli-plugin-template/0.0.1-2 linux-x64 node-v12.18.1
 $ oclif-example --help [COMMAND]
 USAGE
   $ oclif-example COMMAND
@@ -50,7 +50,7 @@ EXAMPLE
   finalTest world from ./src/finalTest.ts!
 ```
 
-_See code: [build/commands/finaltest.ts](https://github.com/vtex/cli-plugin-template/blob/v0.0.1-1/build/commands/finaltest.ts)_
+_See code: [build/commands/finaltest.ts](https://github.com/vtex/cli-plugin-template/blob/v0.0.1-2/build/commands/finaltest.ts)_
 
 ## `oclif-example hello [FILE]`
 
@@ -72,7 +72,7 @@ EXAMPLE
   test world from ./src/test.ts!
 ```
 
-_See code: [build/commands/hello.ts](https://github.com/vtex/cli-plugin-template/blob/v0.0.1-1/build/commands/hello.ts)_
+_See code: [build/commands/hello.ts](https://github.com/vtex/cli-plugin-template/blob/v0.0.1-2/build/commands/hello.ts)_
 
 ## `oclif-example test2 [FILE]`
 
@@ -94,5 +94,5 @@ EXAMPLE
   hello world from ./src/hello.ts!
 ```
 
-_See code: [build/commands/test2.ts](https://github.com/vtex/cli-plugin-template/blob/v0.0.1-1/build/commands/test2.ts)_
+_See code: [build/commands/test2.ts](https://github.com/vtex/cli-plugin-template/blob/v0.0.1-2/build/commands/test2.ts)_
 <!-- commandsstop -->
