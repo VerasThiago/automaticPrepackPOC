@@ -17,7 +17,7 @@ $ npm install -g @vtex/cli-plugin-template
 $ oclif-example COMMAND
 running command...
 $ oclif-example (-v|--version|version)
-@vtex/cli-plugin-template/0.0.1-0 linux-x64 node-v12.18.1
+@vtex/cli-plugin-template/0.0.1-1 linux-x64 node-v12.18.1
 $ oclif-example --help [COMMAND]
 USAGE
   $ oclif-example COMMAND
@@ -26,8 +26,31 @@ USAGE
 <!-- usagestop -->
 # Commands
 <!-- commands -->
+* [`oclif-example finaltest [FILE]`](#oclif-example-finaltest-file)
 * [`oclif-example hello [FILE]`](#oclif-example-hello-file)
 * [`oclif-example test2 [FILE]`](#oclif-example-test2-file)
+
+## `oclif-example finaltest [FILE]`
+
+describe the command here
+
+```
+USAGE
+  $ oclif-example finaltest [FILE]
+
+OPTIONS
+  -f, --force
+  -h, --help       show CLI help
+  -n, --name=name  name to print
+  -v, --verbose    Show debug level logs
+  --trace          Ensure all requests to VTEX IO are traced
+
+EXAMPLE
+  $ oclif-example finalTest
+  finalTest world from ./src/finalTest.ts!
+```
+
+_See code: [build/commands/finaltest.ts](https://github.com/vtex/cli-plugin-template/blob/v0.0.1-1/build/commands/finaltest.ts)_
 
 ## `oclif-example hello [FILE]`
 
@@ -49,7 +72,7 @@ EXAMPLE
   test world from ./src/test.ts!
 ```
 
-_See code: [build/commands/hello.ts](https://github.com/vtex/cli-plugin-template/blob/v0.0.1-0/build/commands/hello.ts)_
+_See code: [build/commands/hello.ts](https://github.com/vtex/cli-plugin-template/blob/v0.0.1-1/build/commands/hello.ts)_
 
 ## `oclif-example test2 [FILE]`
 
@@ -71,5 +94,5 @@ EXAMPLE
   hello world from ./src/hello.ts!
 ```
 
-_See code: [build/commands/test2.ts](https://github.com/vtex/cli-plugin-template/blob/v0.0.1-0/build/commands/test2.ts)_
+_See code: [build/commands/test2.ts](https://github.com/vtex/cli-plugin-template/blob/v0.0.1-1/build/commands/test2.ts)_
 <!-- commandsstop -->
