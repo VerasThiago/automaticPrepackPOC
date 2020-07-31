@@ -23,7 +23,6 @@ test world from ./src/test.ts!
 
   async run() {
     const { args, flags } = this.parse(Test)
-Test
     const name = flags.name ?? 'world'
 
     this.log(`test ${name} from ./src/commands/test.ts`)
