@@ -36,7 +36,7 @@ jobs:
       - run: yarn install --ignore-scripts
       - run: yarn run ci:test
 
-  run:
+  prepack:
     runs-on: ubuntu-latest
     steps: 
       uses: actions/checkout@v2
