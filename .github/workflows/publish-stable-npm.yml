@@ -29,22 +29,18 @@ jobs:
     steps: 
     - name: Checkout repo
       uses: actions/checkout@v2
-
     - name: Set up Node.js
       uses: actions/setup-node@v1
       with:
         node-version: 12.x
-    
     - name: Install dependencies
       run: npm install
-
     - name: Update README
       run: yarn prepack
-
     - name: Commit changes
       uses: EndBug/add-and-commit@v4
       with:
-        message: "Update Plugin Documentation"
+        message: "[Automatic] Toolbelt plugin documentation"
         add: "README.md"
       env:
         GITHUB_TOKEN: ${{secrets.GITHUB_TOKEN }}
