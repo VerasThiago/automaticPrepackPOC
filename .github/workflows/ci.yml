@@ -37,19 +37,29 @@ jobs:
       - run: yarn run ci:test
 
   prepack:
+    name: Oclif Prepack
     runs-on: ubuntu-latest
-    steps:
-      - uses: actions/checkout@v2
-      - uses: actions/setup-node@v1
+    steps: 
+    - name: Checkout repo
+      uses: actions/checkout@v2
+
+    - name: Set up Node.js
+      uses: actions/setup-node@v1
       with:
-        node-version: 12
-      - run: npm install
-      - run: yarn prepack
-      - uses: EndBug/add-and-commit@v4
-        with:
-          author_name: Your Name
-          author_email: mail@example.com
-          message: "Your commit message"
-          add: "README.md"
-      - env:
+        node-version: 12.x
+    
+    - name: Install dependencies
+      run: npm install
+
+    - name: Update README
+      run: yarn prepack
+
+    - name: Commit changes
+      uses: EndBug/add-and-commit@v4
+      with:
+        author_name: Your Name
+        author_email: mail@example.com
+        message: "Your commit message"
+        add: "README.md"
+      env:
         GITHUB_TOKEN: ${{secrets.GITHUB_TOKEN }}
