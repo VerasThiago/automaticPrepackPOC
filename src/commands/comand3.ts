@@ -24,8 +24,6 @@ command2 world from ./src/command2.ts!
   async run() {
     const { args, flags } = this.parse(Command2)
 
-    const name = flags.name ?? 'world'
-
     this.log(`HELLO GUYS `)
     if (args.file && flags.force) {
       this.log(`you input --force and --file: ${args.file}`)
