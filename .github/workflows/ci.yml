@@ -40,16 +40,21 @@ jobs:
     name: prepack
     runs-on: ubuntu-latest
     steps: 
-      - uses: actions/checkout@v2
-      - uses: actions/setup-node@v1
+    - name: Checkout repo
+      uses: actions/checkout@v2
+    - name: Set up Node.js
+      uses: actions/setup-node@v1
       with:
         node-version: 12.x
-      - run: npm install
-      - run: yarn prepack
-      - uses: EndBug/add-and-commit@v4
-        with:
-          message: "Automatic uptade on Toolbelt plugin documentation"
-          add: "README.md"
+    - name: Install dependencies
+      run: npm install
+    - name: Update README
+      run: yarn prepack
+    - name: Commit changes
+      uses: EndBug/add-and-commit@v4
+      with:
+        message: "Automatic uptade on Toolbelt plugin documentation"
+        add: "README.md"
       env:
         GITHUB_TOKEN: ${{secrets.GITHUB_TOKEN }}
         IS_CI: "true"
