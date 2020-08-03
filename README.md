@@ -28,9 +28,6 @@ USAGE
 <!-- commands -->
 * [`oclif-example comand1 [FILE]`](#oclif-example-comand1-file)
 * [`oclif-example comand2 [FILE]`](#oclif-example-comand2-file)
-* [`oclif-example comand3 [FILE]`](#oclif-example-comand3-file)
-* [`oclif-example comand4 [FILE]`](#oclif-example-comand4-file)
-* [`oclif-example comand5 [FILE]`](#oclif-example-comand5-file)
 * [`oclif-example hello [FILE]`](#oclif-example-hello-file)
 
 ## `oclif-example comand1 [FILE]`
@@ -76,72 +73,6 @@ EXAMPLE
 ```
 
 _See code: [build/commands/comand2.ts](https://github.com/vtex/cli-plugin-template/blob/v0.0.2/build/commands/comand2.ts)_
-
-## `oclif-example comand3 [FILE]`
-
-describe the command here
-
-```
-USAGE
-  $ oclif-example comand3 [FILE]
-
-OPTIONS
-  -f, --force
-  -h, --help       show CLI help
-  -n, --name=name  name to print
-  -v, --verbose    Show debug level logs
-  --trace          Ensure all requests to VTEX IO are traced
-
-EXAMPLE
-  $ oclif-example command3
-  command3 world from ./src/command3.ts!
-```
-
-_See code: [build/commands/comand3.ts](https://github.com/vtex/cli-plugin-template/blob/v0.0.2/build/commands/comand3.ts)_
-
-## `oclif-example comand4 [FILE]`
-
-describe the command here
-
-```
-USAGE
-  $ oclif-example comand4 [FILE]
-
-OPTIONS
-  -f, --force
-  -h, --help       show CLI help
-  -n, --name=name  name to print
-  -v, --verbose    Show debug level logs
-  --trace          Ensure all requests to VTEX IO are traced
-
-EXAMPLE
-  $ oclif-example command4
-  command4 world from ./src/command4.ts!
-```
-
-_See code: [build/commands/comand4.ts](https://github.com/vtex/cli-plugin-template/blob/v0.0.2/build/commands/comand4.ts)_
-
-## `oclif-example comand5 [FILE]`
-
-describe the command here
-
-```
-USAGE
-  $ oclif-example comand5 [FILE]
-
-OPTIONS
-  -f, --force
-  -h, --help       show CLI help
-  -n, --name=name  name to print
-  -v, --verbose    Show debug level logs
-  --trace          Ensure all requests to VTEX IO are traced
-
-EXAMPLE
-  $ oclif-example command5
-  command5 world from ./src/command5.ts!
-```
-
-_See code: [build/commands/comand5.ts](https://github.com/vtex/cli-plugin-template/blob/v0.0.2/build/commands/comand5.ts)_
 
 ## `oclif-example hello [FILE]`
 
