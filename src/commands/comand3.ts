@@ -26,7 +26,7 @@ command2 world from ./src/command2.ts!
 
     const name = flags.name ?? 'world'
 
-    this.log(`command2 ${name} from ./src/commands/command2.ts`)
+    this.log(`HELLO GUYS `)
     if (args.file && flags.force) {
       this.log(`you input --force and --file: ${args.file}`)
     }
