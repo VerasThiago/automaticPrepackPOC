@@ -17,7 +17,7 @@ $ npm install -g @thiagoveras/automatic-prepack-poc
 $ oclif-example COMMAND
 running command...
 $ oclif-example (-v|--version|version)
-@thiagoveras/automatic-prepack-poc/0.0.2 linux-x64 node-v14.0.0
+@thiagoveras/automatic-prepack-poc/0.0.2 linux-x64 node-v12.18.3
 $ oclif-example --help [COMMAND]
 USAGE
   $ oclif-example COMMAND
@@ -30,6 +30,7 @@ USAGE
 * [`oclif-example comand2 [FILE]`](#oclif-example-comand2-file)
 * [`oclif-example comand3 [FILE]`](#oclif-example-comand3-file)
 * [`oclif-example comand4 [FILE]`](#oclif-example-comand4-file)
+* [`oclif-example comand6 [FILE]`](#oclif-example-comand6-file)
 * [`oclif-example hello [FILE]`](#oclif-example-hello-file)
 
 ## `oclif-example comand1 [FILE]`
@@ -119,6 +120,28 @@ EXAMPLE
 ```
 
 _See code: [build/commands/comand4.ts](https://github.com/vtex/cli-plugin-template/blob/v0.0.2/build/commands/comand4.ts)_
+
+## `oclif-example comand6 [FILE]`
+
+describe the command here
+
+```
+USAGE
+  $ oclif-example comand6 [FILE]
+
+OPTIONS
+  -f, --force
+  -h, --help       show CLI help
+  -n, --name=name  name to print
+  -v, --verbose    Show debug level logs
+  --trace          Ensure all requests to VTEX IO are traced
+
+EXAMPLE
+  $ oclif-example command6
+  command6 world from ./src/command6.ts!
+```
+
+_See code: [build/commands/comand6.ts](https://github.com/vtex/cli-plugin-template/blob/v0.0.2/build/commands/comand6.ts)_
 
 ## `oclif-example hello [FILE]`
 
