@@ -28,4 +28,3 @@ jobs:
           add: "README.md"
         env:
           GITHUB_TOKEN: ${{secrets.GITHUB_TOKEN }}
-          IS_CI: "true"
