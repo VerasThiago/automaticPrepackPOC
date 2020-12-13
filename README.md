@@ -17,7 +17,7 @@ $ npm install -g @thiagoveras/automatic-prepack-poc
 $ oclif-example COMMAND
 running command...
 $ oclif-example (-v|--version|version)
-@thiagoveras/automatic-prepack-poc/0.0.2 linux-x64 node-v14.0.0
+@thiagoveras/automatic-prepack-poc/0.0.2 linux-x64 node-v12.20.0
 $ oclif-example --help [COMMAND]
 USAGE
   $ oclif-example COMMAND
